@@ -1,73 +1,152 @@
-# Getting Started with Create React App
+# Nomads — Climate Change × Gender Inequality  
+### NASA Space Apps Challenge 2024
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Nomads** is an interactive web platform developed for the **2024 NASA Space Apps Challenge** that explores the **interconnected relationship between climate change and gender inequality** using global datasets, local case studies, and interactive visualizations. The project was awarded a Global Nominee award - selected out of 15,000+ participants, the top 6% globally. 
 
-## Available Scripts
+🌍 **Live Project:** https://www.nomads-nasa.earth/  
+🚀 **NASA Space Apps Team Page:** https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/nomads/?tab=project  
+🎥 **Project Demonstration:** https://www.canva.com/design/DAGSyXBF_P4/1waTQ18rlFQyufRSZ-1Dbw/view
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Summary
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Climate change and gender inequality are two of the most pressing global challenges of our time. Rather than treating them as separate issues, **Nomads** approaches them as **deeply interconnected problems** that must be addressed together to achieve sustainable and equitable progress.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+We built an interactive, educational web platform that helps users understand **how climate vulnerability disproportionately affects gender equality**, both globally and locally, through data-driven storytelling and interactive decision-making.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What We Built
 
-### `npm run build`
+Nomads integrates multiple components into a single interactive experience:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🌐 Global Data Visualization
+- Modeled and visualized **climate vulnerability** (ND-GAIN Index) and **gender inequality** (UNDP Gender Inequality Index)
+- Covers **188 countries over a 27-year period**
+- Interactive **heat maps**, **scatter plots**, and **time sliders** allow users to explore trends across time and regions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🌍 Interactive 3D Globe
+- A fully interactive **3D globe** enabling users to:
+  - rotate and zoom
+  - select countries
+  - track changes in climate vulnerability and gender inequality over time
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📍 Local Case Studies
+To move beyond global averages, we analyzed **five real-world climate events** and their gendered impacts, including:
 
-### `npm run eject`
+- **Typhoon Haiyan (Philippines, 2013)**  
+  After the disaster, reported rape rates increased from **5 to 9**, highlighting the vulnerability of women and girls in post-disaster contexts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Each case study includes:
+- event background
+- gender-related impacts
+- supporting statistics
+- NASA satellite imagery where applicable
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🧭 Country-Specific Solutions
+- Action plans for **12 countries**, drawing from expert sources such as:
+  - Climate Change Gender Action Plans (ccGAPs)
+  - IUCN Regional Conservation Forum (RCF)
+- Designed to encourage informed, localized action
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🎮 Interactive Policy Game
+- Users act as policymakers making real-world decisions
+- Choices affect:
+  - Gender Inequality Index (GII)
+  - violence rates
+  - overall societal well-being
+- Outcomes are **data-backed** and grounded in research
+- Includes visual feedback and NASA satellite imagery
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Why This Matters
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Educational Impact:**  
+  Makes complex global issues accessible and engaging for teens and adults
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Actionable Insights:**  
+  Encourages evidence-based thinking and policy awareness
 
-### Code Splitting
+- **Global + Local Perspective:**  
+  Combines large-scale data with concrete human impacts
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+By showing that **climate change and gender inequality reinforce each other**, Nomads demonstrates why addressing them together is more effective than tackling them in isolation.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How It Works (Technical Overview)
 
-### Making a Progressive Web App
+### Data Processing & Visualization
+- Climate vulnerability data: **ND-GAIN Index**
+- Gender inequality data: **UNDP Gender Inequality Index (GII)**
+- Data cleaned and processed using **Python (pandas, numpy)**
+- Visualized using interactive charts and maps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Frontend & Visualization
+- **React** for frontend architecture
+- **JavaScript, HTML, CSS**
+- Interactive **3D globe visualization** (`react-globe.gl`)
+- Dynamic charts with time sliders
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Use of Artificial Intelligence (AI)
 
-### Deployment
+AI tools were used **only for media and presentation**, not for data analysis:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **MidJourney** — image generation
+- **Dream Machine** — image animation
+- **UDIO** — background music
+- **ElevenLabs** — voiceover narration
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Data & Sources
 
+### NASA & Space Agency Data
+- NASA Earth Observatory imagery
 
-    // "start": "HTTPS=true react-scripts start",
+### Climate & Gender Data Sources
+- ND-GAIN Climate Vulnerability Index
+- UNDP Gender Inequality Index (GII)
+- World Bank Group
+- UNICEF
+- UN Women
+- UNODC
+- IOM Migration
+- World Health Organization
+- United Nations
+- ReliefWeb
+- Brookings
+- BMJ
+- CNN
+
+### Case Study & Policy Sources
+- Philippines: Super Typhoon Haiyan (Yolanda) — Humanitarian Impact Reports
+- Climate Change Gender Action Plans (ccGAPs)
+- TEAM LEWIS Foundation (2022)
+
+---
+
+## My Role (Fork Owner)
+
+**Nurkyz Ydyrysova — Team Lead**
+
+Responsibilities included:
+- overall project direction and coordination
+- research and validation of climate–gender case studies
+- sourcing and organizing datasets
+- structuring the platform narrative and user flow
+- preparation of final submission materials and demo
+
+> This repository represents a **team effort**. Code contributions are credited in the original repository and team documentation.
+
+---
+
+## Running the Project Locally
+
+```bash
+npm install
+npm start
